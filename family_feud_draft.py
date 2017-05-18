@@ -104,9 +104,9 @@ def play_game():
                 print user_points
             else:
                 print 'no'
-        for x in range(len(questions_list)):
-            for correct_answers in questions_list[x]['answers']:
-                print correct_answers.title
+        # for x in range(len(questions_list)):
+        #     for correct_answers in questions_list[x]['answers']:
+        #         print correct_answers.title
         if round_counter == len(questions_list):
             end_game()
 
